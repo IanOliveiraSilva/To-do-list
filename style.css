@@ -1,0 +1,97 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .add-task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-task input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+  }
+  
+  .add-task button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-list li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .task-list li .task-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .task-list li .task-date {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  .task-list li .task-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .task-list li .task-actions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .task-list li .task-actions .edit-button {
+    background-color: #ffc107;
+    color: #fff;
+  }
+  
+  .task-list li .task-actions .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
