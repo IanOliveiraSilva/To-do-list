@@ -27,7 +27,7 @@ Go to the project directory
 ### Remote
 To use remotely, just access the link:
 
-  - [To do list](https://github.com/IanOliveiraSilva)
+  - [To do list]([https://github.com/IanOliveiraSilva](https://ianoliveirasilva.github.io/To-do-list/))
 
 
 
